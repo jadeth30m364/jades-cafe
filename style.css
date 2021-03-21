@@ -1,0 +1,131 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: #ede1d1;
+
+}
+.name {
+  padding: 10%;
+  background-image: url("bg1.png");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30pt;
+}
+
+h2 {
+  font-size: 15pt;
+}
+
+.intro {
+  margin: 2% 30% 2% 30%;
+  text-align: center;
+  background-color: burlywood;
+  padding: 5%;
+}
+
+.bragging {
+  background-color: #918151;  
+  color: ivory;
+  margin-top: 2%;
+  width: 69%;
+  display: inline-block;
+  padding: 3%;
+  border-radius: 5px;
+}
+
+.bragging2 {
+  background-color: #a89070;  
+  color: ivory;
+  margin-top: 2%;
+  width: 69%;
+  display: inline-block;
+  padding: 3%;
+  border-radius: 5px;
+}
+
+.selfpromo {
+  background-color: #918151;  
+  color: ivory;
+  padding: 5%;
+  margin-top: 2%;
+}
+
+.event{
+  background-color: ivory;  
+  padding: 5%;
+  margin-top: 2%;
+}
+
+.music {
+  margin-top: 2%;
+  background-color: #d6bb97;
+  padding: 5%;
+}
+
+.entertainment {
+  padding: 5%;
+}
+
+.kdrama {
+  background-color: #a89070;
+  padding: 10px;
+  width: 30%;
+  margin: 5px;
+  display: inline-block;
+}
+
+.snowButton {
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: wheat;
+}
+
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: brown;
+}
+
+/* selected link */
+a:active {
+  color: brown;
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky; 
+  top: 0; 
+  width: 100%; 
+}
+
+/* Links inside the navbar */
+.navbar a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background-color: #111;
+  color: brown;
+}

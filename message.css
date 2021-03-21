@@ -1,0 +1,110 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: #ede1d1;
+}
+form {
+  display: block;
+  max-width: 80%;
+  border: 1px solid ivory;
+  padding: 2%;
+  border-radius: 5px;
+  background-color: burlywood;
+  overflow: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+}
+
+label {
+  margin: 1em 0;
+  display: flex;
+  justify-content: space-between;
+  
+
+} 
+
+
+input[type=text] {
+  font: inherit;
+  float: right;
+  width: 50%;
+  overflow: auto;
+  resize: none;
+}
+
+input[type=submit] {
+  font: inherit;
+  float: right;
+}
+
+.name {
+  padding: 10%;
+  background-image: url("bg1.png");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30pt;
+  color: white;
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky; 
+  top: 0; 
+  width: 100%; 
+
+}
+
+/* Links inside the navbar */
+.navbar a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background-color: #111;
+  color: brown;
+}
+
+.booton a,  a:visited {
+  background-color: #918151;
+  text-decoration: none;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  width: 20%;
+  margin: 5%;
+}
+
+.booton a:hover {
+  background-color: #665b3b;
+  text-decoration: none;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  width: 20%;
+}
+
+.message-board {
+  background-color: #a89070;
+  width: 85%;
+  display: inline-block;
+  margin: 2%;
+  padding-bottom: 1%;
+
+
+}

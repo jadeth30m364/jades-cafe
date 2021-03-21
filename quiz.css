@@ -1,0 +1,330 @@
+/* CSS Part One */* { 
+  margin: 0; 
+  padding: 0; 
+}
+html {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+body { 
+  background: #ede1d1;
+  color: #fff; 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+#page-wrap { 
+  height: 450px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 600px;
+}
+h1 { 
+  letter-spacing: 3px;
+  margin: 25px 0; 
+  text-transform: lowercase;
+  font-family: 'Dancing Script', cursive;
+}
+.index-sell, .index-headline {
+  color: white;
+  left: 100px;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  width: 400px;
+}
+.index-headline {
+  font-size: 36px;
+  height: 0;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 2px #333;
+  top: 55px;
+}
+.index-sell {
+  font-size: 21px;
+  line-height: 28px;
+  text-transform: lowercase;
+}
+.index-sell { top: 155px; }
+.transparent {
+  color: transparent;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+.take-quiz-btn, .embed-btn, .close-btn {
+  -webkit-appearance: none;
+  border: none;
+  background: burlywood;
+  color: #f3f4ef;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+.take-quiz-btn, .close-btn {
+  background: #918151;
+  font-size: 21px;
+  text-shadow: 1px 1px rgba(66,66,66,.666);
+  text-transform: lowercase;
+}
+.take-quiz-btn {
+  top: 267px; 
+  width: 259px;
+}
+.index-btn {
+  height: 49px;
+  left: 168px;
+  padding: 9px 0 6px 0;
+  position: absolute;
+  top: 267px; 
+}
+.quiz-overlay, .result {
+  height: 325px;
+  position: absolute;
+  width: 552px;
+  z-index: -1;
+}
+.index .quiz-overlay, .quiz-overlay { 
+  background: #8b6c44;
+  background-size: cover;
+}
+.index .quiz-overlay {
+  left: 24px;
+}
+/* CSS Part Two */#quiz {
+  margin: 0 18px;
+  padding: 0 0 0 1px;
+  position: relative;
+  -webkit-transition: all linear .35s;
+  -moz-transition: all linear .35s;
+  -o-transition: all linear .35s;
+  -ms-transition: all linear .35s;
+  transition: all linear .35s;
+}
+#quiz .anticipate {
+  color: white;
+  font-size: 32px;
+  line-height: 41px;
+  padding: 50px 0 0 0;
+  text-shadow: 1px 1px rgba(255,255,255,.666);
+}
+#start-quiz {
+  margin-top: 25px;
+}
+#quiz ul li div.quiz-overlay { margin: 0; }
+#quiz ul {
+  list-style-type: none;
+  margin-top: 0;
+}
+#quiz h3 {
+  color: #222;
+  font-size: 22px; 
+  font-weight: 400;
+  line-height: 32px; 
+  margin: 0 0 1px 0;
+  min-height: 64px;  
+  padding: 9px 50px 0;
+  text-align: center;
+}
+#quiz ul li {
+  height: 335px;
+  margin: 25px 0 95px 0;
+  max-height: 335px;
+  min-height: 335px;
+}
+#quiz ul li div {
+  color: #ebe9e6;
+  margin: 10px 0;
+  padding: 1px 0;
+}
+#quiz ul li div.mtm {
+  margin-top: 20px;
+}
+#quiz input {
+  opacity: 0;
+  vertical-align: middle;
+  width: 20px;
+}
+#quiz label, #quiz input#submit-quiz {
+  background-color: #918151; 
+  cursor: pointer;
+  display: inline-block;
+  z-index: 99;
+}
+#quiz label {
+  height: 31px; 
+  font-size: 13px;  
+  line-height: 2.55em;  
+  margin: 0 30px 0 0;
+  max-width: 476px;
+  min-width: 476px;
+  padding: 2px 0 4px 16px;
+  width: 476px;
+}
+#quiz input#submit-quiz {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #918151; 
+  border: none;
+  color: #ebe9e6;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  height: 74px;
+  margin: 43px auto 0;
+  opacity: 1;
+  width: 250px;
+}
+#quiz label, #quiz input[type=radio]:checked + label, #quiz input#submit-quiz, #replay, .take-quiz-btn {
+  -webkit-transition: all ease .11s;
+  -moz-transition: all ease .11s;
+  -o-transition: all ease .11s;
+  -ms-transition: all ease .11s;
+  transition: all ease .11s;
+}
+#quiz label:hover, #quiz input[type=radio]:checked + label, #quiz input#submit-quiz:hover, #replay:hover, .take-quiz-btn:hover {
+  background: burlywood; 
+  color: black;
+}
+#quiz .quiz-progress {
+  color: #ebe9e6;
+  font-size: 14px;
+  padding: 7px 30px 5px 0; 
+  text-align: right;
+  text-shadow: 1px 1px #131313;
+}
+.nomargin { margin: 0;}
+
+/* CSS Part Three */#replay {
+  display: block;
+  height: 46px;
+  line-height: 46px;
+  margin: 20px 0 0 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+}
+.results-img {
+  border: 4px solid #ebe9e6;
+  left: -25px;
+  position: absolute;
+  top: 8px;
+  width: 208px;
+}
+.test-results2 {
+  color: #fff;
+  font-size: 15px;
+  line-height: 21px;
+  text-shadow: 1px 1px rgba(2,3,5,.666);
+}
+.test-results2 .score {
+  color: wheat; 
+  font-size: 22px; 
+  line-height: 30px; 
+  margin-bottom: 4px;
+  text-transform: lowercase;
+  font-family: 'Dancing Script', cursive;
+}
+.results-overlay {
+  background-color: transparent;
+  margin: 42px 0 0 65px;
+  max-height: 325px; 
+  position: relative;
+  width: 510px;
+}
+.results-overlay .quiz-overlay {
+  left: -41px;
+  top: -7px;
+}
+.results-text {
+  padding: 5px 35px 30px 215px; 
+}
+.score-details {
+  font-size: 12px; 
+  line-height: 19px; 
+}
+.score-details-sm {
+  font-size: 12px;
+  line-height: 19px;
+}
+.result {
+  height: 325px;
+}
+
+/* CSS Part Four */.embed {
+  font-size: 14px;
+  position: absolute;
+  right: 26px; 
+  text-shadow: 1px 1px #131313;
+  top: 8px; 
+}
+#modalbg {
+  background: #333; 
+  display: none;
+  height: 100%;  
+  left: 0; 
+  opacity: .4; 
+  position: fixed; 
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
+#modalwindow {
+  background: rgba(255,255,255,.95); 
+  border: 3px outset #ccc; 
+  display: none; 
+  height: 254px; 
+  left: 25px;
+  padding: 32px; 
+  position: absolute; 
+  top: 35px;
+  width: 480px;
+  z-index:10;
+}
+#modalmsg {
+  color: #222;
+  text-align: center; 
+}
+.embed-btn {
+  background-color: transparent;
+  font-size: 14px;
+}
+textarea.c-p {
+  display: block;
+  height: 50px;
+  margin: 25px auto;
+  width: 420px;
+}
+.close-btn {
+  display: block;
+  margin: 70px auto 0; 
+  padding: 12px 24px;
+}
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky; 
+  top: 0; 
+  width: 100%; 
+
+}
+
+/* Links inside the navbar */
+.navbar a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background-color: #111;
+  color: brown;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>jade's cafe</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
+    <style>
+      body {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        background-color: #ede1d1;
+        }
+    </style>
+  </head>
+  <body onload="setSnowButton()">
+    <script src="snowstorm.js"></script>
+     <div class="navbar">
+      <a href="index.php">messages</a>
+      <a href="regulars.html">regulars</a>
+      <a href="form.php">order</a>
+      <a href="cafe.html">cafe</a>
+      <a href="index.html">home</a>
+    </div>
+    <div class="name">
+      <h1>jade's cafe</h1>
+      <h3>just a little space to relax and listen to music 
+      </h3>
+    </div>
+    <div class="event">
+      <h3>happy winter~</h3>
+      <p>
+        winter is one of my favorite seasons because of its simple white bliss. winter can be associated with both positive and negative emotions--some associate it with sadness because of its cold, rainy weather, while others associate it with joy and love because of its holiday spirit. here are some winter treats for you to enjoy... on the house!
+      </p>
+      <div class="event_playlist">
+        <iframe src="https://open.spotify.com/embed/track/3wtDVPGUMTHgsVdpr9uYin" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      </div>
+      <button class="snowButton" onclick="snowStorm.freeze()">click here to make the snow pause!</button>
+      <button class="snowButton" onclick="snowStorm.resume()">click here to make the snow resume!</button>
+      <button class="snowButton" onclick="snowStorm.stop()">click here to make the snow stop!</button>
+
+    </div>
+    <div class="music">
+      <h3>music menu</h3>
+      <p>
+        one of my favorite things to do is to curate mini playlists with a few of my favorite songs. each of my playlists are 10 songs long and are mainly comprised of gentle korean osts (original sound tracks from my favorite korean dramas), however, some of my playlists are comprised of songs from other genres, such as indie pop and your more typically run-of-the-mill kpop. here are some of the playlists that i have compiled in the past that you can get a little taste of (each song only plays for about 30 seconds to give you an idea of what you're listening to):
+      </p>
+      <iframe src="https://open.spotify.com/embed/playlist/6R3mnwYt0CCHVEbslSDo0o" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/playlist/6AUATu07vxZ8qn960rLEB8" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/playlist/5wUMjIZ910ONbqLnrPJu76" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/playlist/4H2TudIrIBPhz0qPBOoTIA" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/playlist/3FOIuki0nPkRaoAj0jtnQs" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/playlist/2aCJInmWal2Yle7y7GChRY" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <br>
+      <a href="https://open.spotify.com/user/danekomancer?si=KOfZs_BTTEKsOAHeKEUElQ">and if you enjoyed these playlists, feel free to visit my spotify account for even more music :> </a>
+    </div>
+    <div class="entertainment">
+      <h3>entertainment corner</h3>
+      <p>
+        on quiet afternoons, one of the best things to do is curl up with your laptop (and perhaps a pet or human of your choice) and binge-watch a good television show. the shows of my choice are all korean dramas, which are korean television shows that are typically 16 episodes long and center around a male and female lead (or leads); these shows evoke a variety of emotions, such as joy, nervousness, and sadness, so if you watch any of these shows, be prepared for a roller coaster of emotions. so without further ado, here are a few of my favorite k-dramas to get you started:
+      </p>
+      <div class="kdrama">
+        <h4>Crash Landing on You</h4>
+        <iframe width="280" height="157" src="https://www.youtube.com/embed/eXMjTXL2Vks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p style="font-size: 10pt;">
+          are you someone who isn't very into the typical romcom love triangle? or maybe you want to watch a funny romantic comedy with strong leading and supporting characters. well, regardless of what you like, crash landing on you has something for you! with a rich, strong, and determined female lead who gets wizard of oz-style whisked into north korea, where she meets (and later falls in love with) a rule-abiding and aloof north korean military officer who is forced to help her return home and an adventure full of hilarious, colorful side characters, crash landing on you will make you laugh, jump for joy, and cry miserably.
+        </p>
+      </div>
+      <div class="kdrama">
+        <h4>While You Were Sleeping</h4>
+        <iframe width="280" height="157" src="https://www.youtube.com/embed/P5LkC8cgZ0U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p style="font-size: 10pt;">
+          do you like shows involving the unexplainable and the supernatural? how about shows involving crime and the criminal justice system? well if you like either of these (or both!) then while you were sleeping is the perfect drama for you! it centers around three people (an ex-reporter, a prosecutor, and a police officer) who begin having the same ominous dreams of the future and work together to stop them. due to the crime-centered nature of this show, it does have a bit of violence and suspense, but it also involves a very cute romance between two of its leads and plenty of funny moments as well. give it a watch!
+        </p>
+      </div>
+      <div class="kdrama" >
+        <h4>It's Okay to not be Okay</h4>
+        <iframe width="280" height="157" src="https://www.youtube.com/embed/50ek4HQo0Bc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p style="font-size: 10pt;">
+          this show is one of my personal favorites because of its interesting take on mental health and important topics such as autism, depression, and childhood trauma, which are topics not often discussed on the big screen. the show explores the lives of two very different people: a man working as a caretaker for a mental hospital who also must care for his older brother and successful children's book author who suffers from a traumatic childhood. this show not only focuses on the mental state of its main characters, but also its many side characters (patients at the mental hospital), which gives it  depth.
+        </p>
+      </div>
+      <div class="kdrama" >
+        <h4>Start Up</h4>
+        <iframe width="280" height="157" src="https://www.youtube.com/embed/BemKyzbLDDc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p style="font-size: 10pt;">
+          if you're looking for a show to get you motivated to do work, this is the show for you! start up follows young and ambitious people determined to make a name for themselves. all of them have various motivations for creating their start ups, such as the wish to fulfill a deceased loved one's dreams, the hope to build something that can help others, or even the goal prove to others that they are capable of accomplishing such a feat, which makes each character full of depth. this show has many sad moments, plot twists, and the most heart-wrenching love triangle in (arguably) all of kdrama history, so be prepared for those before giving it a watch!
+        </p>
+      </div>
+      <div class="kdrama" >
+        <h4>Let's Eat (seasons 1, 2, and 3)</h4>
+        <iframe width="280" height="157" src="https://www.youtube.com/embed/fNgCEDp9InM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p style="font-size: 10pt;">
+          do you get hungry easily? do you love food and want to learn more about korean food? well, if the sound of food made your eyes light up, let's eat is the perfect drama for you! with a line-up of single characters living in the same apartment building who end up becoming good friends who eat together, let's eat provides various delicious scenes involving the consumption of everything from sugary sweets to hearty meals. in fact, audience members found this show so delicious that it ran for three whole seasons, each 16 episodes long! if you're looking for something to binge late into the night, this is the drama for you! just don't watch it on an empty stomach.
+        </p>
+      </div>
+      <div class="kdrama" >
+        <h4>Guardian: The Lonely and Great God</h4>
+        <iframe width="280" height="157" src="https://www.youtube.com/embed/8AcNEVUzV4o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p style="font-size: 10pt;">
+          this korean drama was all the rave back in 2016--and for good reason! with a complex fantasy storyline following a "goblin" who is cursed to live forever until his bride removes the magical sword (invisible to the normal eye) that sits in his chest. the two second leads, a grim reaper and a beautiful human that he falls in love with, have equally tragic love stories that will leave you at the edge of your seat (and on the brink of tears). as the show continues, you will find that each character is connected to the other in a magnificently written web of fate. if you are looking for a show that will leave you breathless and wanting more, this is the show for you.
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>
